@@ -1,0 +1,39 @@
+#Service{
+  /* background: rgb(255,0,147);
+  background: linear-gradient(126deg, rgba(255,0,147,1) 0%, rgba(255,93,0,1) 97%);
+  background-repeat: no-repeat;
+    
+    background-size:cover; */
+    background-color: white;
+  }
+
+#card{
+  background: rgb(255,0,147);
+  background: linear-gradient(126deg, rgba(255,0,147,1) 0%, rgba(255,93,0,1) 97%);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+/* .custom-shape-divider-top-1671606956 {
+  position: absolute;
+  top: 700px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(0deg);
+  
+}
+
+.custom-shape-divider-top-1671606956 svg {
+  position: relative;
+  display: block;
+  width: calc(135% + 1.3px);
+  height: 161px;
+  
+}
+
+.custom-shape-divider-top-1671606956 .shape-fill {
+  fill: #FFFFFF;
+} */
+
+/* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */

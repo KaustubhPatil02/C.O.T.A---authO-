@@ -1,0 +1,181 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.head{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* background-color: rgb(2, 2, 126); */
+    /* background-color: rgb(4, 4, 90); */
+    /* background-color: rgb(189, 183, 106); */
+    /* Created with https://www.css-gradient.com */
+/*background: #F5e0CB;*/
+/* background: -webkit-linear-gradient(top left, #F4CEAB, #F4A91B);
+background: -moz-linear-gradient(top left, #F4CEAB, #F4A91B);
+background: linear-gradient(to bottom right, #F4CEAB, #F4A91B); */
+    color: rgb(255, 255, 255);
+}
+/* .image{
+    background-image: url("hhm.png");
+    z-index: 1;
+} */
+#bg {
+    
+    background: rgb(255,0,147);
+    background: linear-gradient(126deg, rgba(255,0,147,1) 0%, rgba(255,93,0,1) 97%);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size:cover;
+}
+
+.h-text{
+    /* position: absolute; */
+    
+    left: 5%;
+    padding-left: 15px;
+    text-align: center;
+    z-index: 1;
+}
+.h-text p{
+    /* color: #262626; */
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+.h-text h1{
+    font-size: 4em;
+    line-height: 1.5em;
+
+}
+.h-text h2{
+    font-size: 4em;
+    margin-bottom: 0.5em;
+}
+.h-text #order{
+    color: rgb(255, 255, 255);
+   background: rgb(255, 150, 150);
+   padding: 10px 20px;
+   text-decoration: none;
+   border-radius: 5%;
+   list-style: none;
+   
+}
+.h-text #dis{
+    color: #fff;
+    background: #262626;
+    padding: 10px 20px;
+}
+.image{
+    height: 700px;
+    width: 800px;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+
+/* #Home {
+    position: relative;
+    height: 70px;
+    width: 600px;
+    background: #e0efe3;
+  }
+  #Home:before {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 340px;
+    height: 80px;
+    background-color: white;
+    right: -5px;
+    top: 40px;
+  }
+  #Home:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 300px;
+    height: 70px;
+    background-color: #e0efe3;
+    left: 0;
+    top: 27px;
+  } */
+
+@media (max-width: 700px) {
+    .image{
+        height: 300px;
+        width: 300px;
+    }
+    .image img{
+        width: 100%;
+        height: 100%;
+    }
+    .tops{
+        position: fixed;
+        right: 50px;
+        bottom: 20px;
+    }
+}
+
+
+
+/* .custom-shape-divider-top-1671606956 {
+    position: absolute;
+    top: 620px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(0deg);
+    
+  }
+  
+  .custom-shape-divider-top-1671606956 svg {
+    position: relative;
+    display: block;
+    width: calc(135% + 1.3px);
+    height: 161px;
+    
+  }
+  
+  .custom-shape-divider-top-1671606956 .shape-fill {
+    fill: #FFFFFF;
+  } */
+
+
+  .custom-shape-divider-bottom-1671626083 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1671626083 svg {
+    position: relative;
+    display: block;
+    width: calc(132% + 1.3px);
+    height: 187px;
+}
+
+.custom-shape-divider-bottom-1671626083 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.pac-container:after {
+    /* Disclaimer: not needed to show 'powered by Google' if also a Google Map is shown */
+
+    background-image: none !important;
+    height: 0px;
+}
